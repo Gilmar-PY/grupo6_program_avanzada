@@ -1,7 +1,6 @@
 import streamlit as st
 
 st.write("hola mundo ")
-
 import streamlit as st
 import pandas as pd
 import altair as alt
@@ -134,3 +133,4 @@ if "Año" in options_2:
     )
     chart_year.title = "Sismos por Año"
     st.altair_chart(chart_year, use_container_width=True)
+
